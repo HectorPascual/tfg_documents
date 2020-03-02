@@ -1,0 +1,76 @@
+\documentclass[a4paper]{article}
+\usepackage[left=3.5cm, right=3.5cm, top=2cm]{geometry}
+\usepackage{tabularx} % in the preamble
+\renewcommand{\tabularxcolumn}[1]{m{#1}}
+
+%opening
+\title{\textbf{DevOps : Continuous Integration and Continuous Deployment applied} \\~\\
+\large \textbf{Project Proposal and Work Plan}}
+\author{Hector Pascual Haba}
+
+\begin{document}
+
+\maketitle 
+
+\section{Project overview and goals}
+The project is carried out at Silicon Gears an automotive company which works with huge embedded projects with heavy build environments that can be automatized in different ways.
+\\~\\
+The purpose of this project is to research and go deep into the DevOps culture and the trending concepts related to it, which are present in almost each project and company nowadays.
+\\~\\
+The project main goals are:
+\begin{itemize}
+	\item Get involved with trending DevOps technology.
+	\item Get a deep knowledge on DevOps culture and its related concepts.
+	\item Develop a CI / CD (Continuous Integration / Continuous Deployment ) tool with features based on other CI tools.
+	\item Containerize a build environment and automate its build process as an example.
+\end{itemize}
+
+
+\section{Project background}
+
+This project is conceived as an abstracted wrap up and continuation of all the work I have been doing in the company during last year and also a deep analysis of concepts related to DevOps culture that I have got to learn in order to proceed. With abstracted I mean that no confidential data will be present on any document. The only way I will be using all the work done internally in the company is as base knowledge to develop this project.
+\\~\\
+The project itself will be independent on company projects due to the abstraction performed. 
+The main project ideas are completely provided by the author nor the supervisor.
+
+\section{Project requirements and specifications}
+
+The focus of this section will be mainly oriented to the tool that I will be developing along the thesis, due to its practical approach.
+\\~\\
+Project requirements:
+\begin{itemize}
+	\item The project should cover all the DevOps related concepts described in the sections.
+	\item The project should contain reflections on different ways to perform automation of processes.
+	\item The tool should be able to automatize any process that can be done manually via shell commands.
+	\item The tool should be able to schedule jobs periodically through cron expressions.
+	\item The tool should be able to describe the processes to automatize through pipelines.
+\end{itemize}
+Project specifications:
+\begin{itemize}
+	\item Each concept not explained previously related to DevOps must have a reference to an article or book that quotes it.
+	\item The project should contain technical examples when an automation process is described (i.e: Wrapping up a build environment with Docker and deploying it with Ansible to multiple physical hosts.)
+	\item The tool should be able to be hosted on Linux system connected to a private network.
+	\item The tool should be accessible through a REST API developed on Python.
+	\item The Python version used on development should be at least Python 3.6.
+	
+\end{itemize}
+\section{Work Plan}
+
+\section{Generic skills}
+
+The generic skills that will be worked intensively while carrying the project out will be the following :
+\\~\\
+\begin{tabularx}{\textwidth}{|c|X|X|}
+	\hline
+	\textbf{\#} & \textbf{Generic Skill} & \textbf{Explanation} \\ \hline
+	1  & Oral and written communication & Written up of the project and oral presentations.\\ \hline
+	2  & Autonomous learning. & In order to carry out the project I got to design solutions that use current trending technologies which I had to learn by myself. \\ \hline
+	3  & Ability to identify, formulate and solve engineering problems & Automating manual processes requires an ability to identify step by step what is being done, formulate an automation proposal and design a solution.  \\ \hline
+	4  & Ability to Conceive, Design, Implement and Operate complex systems in the ICT context & The design and implementation of the CI/CD tool requires to be highly capable of the skill mentioned.
+	     \\ \hline
+\end{tabularx}
+
+
+
+
+\end{document}
